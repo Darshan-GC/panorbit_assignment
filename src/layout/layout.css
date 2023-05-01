@@ -1,0 +1,23 @@
+.grid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 17% 83%;
+    grid-template-rows: 8% 92%;
+    grid-template-areas:
+        "sidebar navbar"
+        "sidebar children"
+        "sidebar children";
+}
+    
+
+
+.grid-item-1{
+    grid-area: sidebar;
+}
+
+.grid-item-2{
+    grid-area: navbar;
+}
+.grid-item-3{
+    grid-area: children;
+}
